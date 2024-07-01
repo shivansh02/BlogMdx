@@ -8,7 +8,7 @@ interface Props {
 
 export function Card({ image, imageAlt, children }: Props) {
   return (
-    <div className="bg-white rounded-lg border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="bg-white rounded-lg border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700 cursor-pointer">
       {image && (
         <div className="relative w-full h-64">
           <Image
